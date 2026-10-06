@@ -1,12 +1,12 @@
+# School Certificate Verification System
 
-## School Certificate Verification System
+This directory contains the complete C++ implementation for the **School Certificate Verification System**.
 
-This directory contains the complete implementation for School Certificate Verification System** b
 ---
 
 ## Scenario & System Architecture
 
-A university receives applications from students who claim to have completed secondary school. Before admitting a student, the university wants to verify whether the presented examination certificate is genuine.
+A university receives applications from students who claim to have completed secondary school. Before admitting a student, the university verifies whether the presented examination certificate is genuine.
 
 This project implements two communicating systems using **C++ arrays**:
 
@@ -40,10 +40,12 @@ University Admission System (System 2)
 
 ## How to Compile and Run
 
-From this folder (`Assignment2_Certificate_Verification`):
+### Option 1: From this directory (`Certificate_Verification`)
 
-### 1. Run the National Examination Registry System (System 1)
+#### 1. National Examination Registry System (System 1)
 ```bash
+cd Certificate_Verification
+
 # Compile
 g++ -std=c++11 certificate_registry.cpp -o certificate_registry
 
@@ -51,8 +53,10 @@ g++ -std=c++11 certificate_registry.cpp -o certificate_registry
 ./certificate_registry
 ```
 
-### 2. Run the University Admission System (System 2)
+#### 2. University Admission System (System 2)
 ```bash
+cd Certificate_Verification
+
 # Compile
 g++ -std=c++11 admission_system.cpp -o admission_system
 
@@ -62,14 +66,36 @@ g++ -std=c++11 admission_system.cpp -o admission_system
 
 ---
 
+### Option 2: From the project root
+
+#### 1. National Examination Registry System (System 1)
+```bash
+# Compile
+g++ -std=c++11 Certificate_Verification/certificate_registry.cpp -o Certificate_Verification/certificate_registry
+
+# Run
+./Certificate_Verification/certificate_registry
+```
+
+#### 2. University Admission System (System 2)
+```bash
+# Compile
+g++ -std=c++11 Certificate_Verification/admission_system.cpp -o Certificate_Verification/admission_system
+
+# Run
+./Certificate_Verification/admission_system
+```
+
+---
+
 ## Sample Test Verification Cases (for `admission_system.cpp`)
 
 1. **Valid Certificate**:
-   * Enter Index: `KCSE001`
+   * **Index**: `KCSE001`
    * **Result**: Found for **Brian**, Status: `VALID`. Admission approved.
 2. **Suspended Certificate**:
-   * Enter Index: `KCSE003`
-   * **Result**: Found for **John Kamau**, Status: `SUSPENDED`. Admission flagged on hold.
+   * **Index**: `KCSE003`
+   * **Result**: Found for **John Kamau**, Status: `SUSPENDED`. Admission placed on hold pending institutional review.
 3. **Unverified / Fraudulent Certificate**:
-   * Enter Index: `KCSE999`
-   * **Result**: Record NOT found. Warning of possible fraudulent certificate.
+   * **Index**: `KCSE999`
+   * **Result**: Record NOT found in National Registry. Warning of invalid index number or possible fraudulent certificate.
