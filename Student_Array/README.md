@@ -1,8 +1,7 @@
-# University of Embu - Practical 1
-## Assignment 1: Student Array
 
-This directory contains the complete implementation for **Assignment 1: Student Array** based on Page 1 of the University of Embu 2026/2027 Practical 1 document.
+ Student Array
 
+This directory contains the complete implementation for ** Student Array** 
 ---
 
 ## Assignment Requirements
