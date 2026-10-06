@@ -1,5 +1,12 @@
 # Compiled binaries and object files
 student_app
+cert_app
+student_array
+certificate_registry
+admission_system
+Assignment1_Student_Array/student_array
+Assignment2_Certificate_Verification/certificate_registry
+Assignment2_Certificate_Verification/admission_system
 *.o
 *.out
 *.exe
