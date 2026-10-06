@@ -1,8 +1,8 @@
 /*
  * ============================================================================
- * UNIVERSITY OF EMBU
+ * UNIVERSITY 
  * 2026/2027 ACADEMIC YEAR
- * Practical 1 - Assignment 2: School Certificate Verification System
+ * School Certificate Verification System
  * System 2: University Admission System (Used by Admission Officer)
  * ============================================================================
  * Scenario:
