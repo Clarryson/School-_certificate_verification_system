@@ -1,7 +1,7 @@
 
 ## School Certificate Verification System
 
-This directory contains the complete implementation for **Assignment 2: School Certificate Verification System** b
+This directory contains the complete implementation for School Certificate Verification System** b
 ---
 
 ## Scenario & System Architecture
