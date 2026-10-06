@@ -4,9 +4,9 @@ cert_app
 student_array
 certificate_registry
 admission_system
-Assignment1_Student_Array/student_array
-Assignment2_Certificate_Verification/certificate_registry
-Assignment2_Certificate_Verification/admission_system
+Student_Array/student_array
+Certificate_Verification/certificate_registry
+Certificate_Verification/admission_system
 *.o
 *.out
 *.exe
