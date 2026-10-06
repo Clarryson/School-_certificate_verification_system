@@ -1,0 +1,5 @@
+# Compiled binaries and object files
+student_app
+*.o
+*.out
+*.exe
