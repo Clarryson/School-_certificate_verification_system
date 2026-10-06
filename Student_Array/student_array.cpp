@@ -1,8 +1,8 @@
 /*
  * ============================================================================
- * UNIVERSITY OF EMBU
+ * 
  * 2026/2027 ACADEMIC YEAR
- * Practical 1 - Assignment 1: Student Array
+ *  Student Array
  * ============================================================================
  * Requirements from Assignment Document:
  * - Create an array capable of storing a maximum of 20 students.
