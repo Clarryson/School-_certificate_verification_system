@@ -1,8 +1,7 @@
 
 ## School Certificate Verification System
 
-This directory contains the complete implementation for **Assignment 2: School Certificate Verification System** based on Page 2 of the University of Embu 2026/2027 Practical 1 document.
-
+This directory contains the complete implementation for **Assignment 2: School Certificate Verification System** b
 ---
 
 ## Scenario & System Architecture
